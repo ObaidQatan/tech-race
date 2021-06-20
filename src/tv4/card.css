@@ -1,0 +1,57 @@
+*{
+    transition: 0.3s;
+}
+body{
+    position: relative;
+    align-items: center;
+    background-image: url('../flatbg.jpg');
+}
+#words, .likeThis{
+    color: white;
+    overflow: hidden;
+    width: auto;
+    font-size: 30px;
+    white-space: nowrap;
+    text-align: center;
+    transform: translateY(80%);
+}
+#words2{
+    height: 0px;
+    transform: translateY(300%); 
+}
+
+#zero,#fst,#snd,#trd,#frth,#fth,#sixth,#svth,#eth,#nth,#fst1,#snd1,#trd1,#frth1,#fth1,#sixth1,#svth1,#eth1,#fst2,#snd2,#trd2{
+    visibility: hidden;
+}
+#sixth,#svth1, #fst2{
+    color: yellow;
+    font-size: 40px;
+}
+#eth1{
+    position: absolute;
+    font-size: 40px;
+    animation: rotateMe 500ms normal 8;
+    transform-origin: bottom;
+    transform: rotate(25deg);
+}
+#fst2{
+    font-size: 60px;
+}
+#snd2,#trd2{
+    font-size: 20px;
+    margin: -5px 0;
+    padding-left: 5px;
+}
+#cont{
+    display: inline-block;
+    text-align: start;
+}
+
+@keyframes rotateMe{
+    from{
+        transform: rotate(0deg);
+    }  
+    to{
+        transform: rotate(25deg);
+    }
+}

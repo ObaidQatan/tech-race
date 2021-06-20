@@ -1,0 +1,68 @@
+*{
+    transition: 0.3s;
+}
+body{
+    position: relative;
+    
+}
+section{
+    position: absolute;
+    width: 40%;
+    height: 162px;
+    left: 10%;
+    transform: translateY(50%);
+}
+section h4{
+    opacity: 70%;
+    border-radius: 20px;
+    background: white;
+    width: 70%;
+    height: 40px;
+    text-align: start;
+    color: black;
+    font-family: cursive;
+    font-size: 15px;
+}
+#oops{
+    width: 20%;
+    transform: translateX(300%);
+}
+#oops:hover{
+    width: 20%;
+    transform: translateX(300%);
+    background: #6C5CE7;
+}
+#oops2{
+    width: 20%;
+    transform: translateX(370%);
+}
+#oops2:hover{
+    width: 20%;
+    transform: translateX(370%);
+    background: #6C5CE7;
+}
+#knowMoreBtn{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.356);
+    width: 120px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    border-width: 0px;
+    left: 10%;
+    bottom: 20%;
+    transition: 1s;
+
+}
+#knowMoreBtn:hover{
+    background-color: #6C5CE7;
+}
+li{
+    position: absolute;
+    content: url(../a\ \(1\).svg);
+    right: 5%;
+    width: 40%;
+    height: 70vh;
+    transform: translateY(40%);
+}

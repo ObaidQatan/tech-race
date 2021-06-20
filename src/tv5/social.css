@@ -1,0 +1,79 @@
+*{
+    transition: 0.3s;
+}
+body{
+    position: relative;
+    overflow: hidden;
+}
+
+h3{
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    right: 20%;
+    top: 10%;
+}
+h4{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    right: 10%;
+    top: 15%;
+}
+#container{
+    position: fixed;
+    width: 20%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 20px;
+    right: 10%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+}
+#container li{
+    margin: 4% 0;
+    transform: translateY(100%);
+    opacity: 70%;
+}
+#container li:hover{
+    opacity: 100%;
+}
+#insta{
+    content: url('../instagram_square.png') ;
+   /* width: 50px;
+    height: 50px;*/
+    width: 9.5%;
+    height: 19%;
+}
+#whats{
+    content: url('../whatsapp.png') ;
+    /*width: 60px;
+    height: 60px;*/
+    width: 11%;
+    height: 21%;
+}
+#face{
+    content: url('../facebook_circle.png') ;
+    /*width: 75px;
+    height: 75px;*/
+    width: 14%;
+    height: 27%;
+}
+#link{
+    content: url('../linkedin_circle.png') ;
+    /*width: 55px;
+    height: 55px;*/
+    width: 10.5%;
+    height: 20%;
+}
+#yout{
+    content: url('../youtube.png') ;
+    /*width: 55px;
+    height: 55px;*/
+    width: 10.5%;
+    height: 20%;
+    border-radius: 100px;
+}

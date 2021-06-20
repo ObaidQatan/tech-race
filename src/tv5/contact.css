@@ -1,0 +1,46 @@
+*{
+    transition: 0.3s;
+}
+body{
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.541);
+    text-align: center;
+}
+#title{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: #6C5CE7;
+    padding: 5px;
+    border-radius: 20px;
+}
+#sendBtn{
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
+    background-color: #6C5CE7;
+    padding: 5px;
+    border-radius: 20px;
+    width: 15%;
+}
+#email,#message{
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    margin: 4% 0;
+}
+#message{
+    resize: none;
+    height: 100px;
+}
+h4{
+    color: rgba(255, 255, 255, 0.644);
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20%;
+    font-size: 12px;
+}

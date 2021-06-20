@@ -1,0 +1,93 @@
+*{
+    transition: 0.3s;
+}
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#doit{
+    color: white;
+    font-size: 120%;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    border: solid #ffffff9e 2px;
+    border-radius: 20px;
+    padding: 8px;
+}
+input{
+padding: 10px;
+background: white;
+border-radius: 20px;
+width: 80%;
+height: 30px;
+margin:30px 30px;
+border-width: 0px;
+transform: translateY(50%);
+}
+#cKey{
+    width: 20%;
+    padding-left: 30px;
+}
+#plus{
+    height: 2px;
+    width: 2px;
+    color: black;
+    bottom: 11%;
+    left: 10%;
+    position: absolute;
+    font-size: 130%;
+    font-family: monospace;
+}
+#orderBtn{
+    position: fixed;
+    background-color: #6C5CE7;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    border-width: 0px;
+    left: 35%;
+    transition: 1s;
+    top: 80%;
+
+}
+#num{
+    width: 60%;
+    margin-left: -5%;
+}
+#bob{
+    display: flex;
+    flex-direction: row;
+}
+#orderBtn:hover{
+    background-color: #ffffff54;
+    color: black;
+}
+#dollar{
+color: white;
+top: 90%;
+width: 100%;
+text-align: center;
+position: fixed;
+letter-spacing: 2px;
+font-size: 150%;
+font-family: cursive;
+}
+.msg-suc{
+    position: fixed;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    border: solid 2px #00800054;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    left: 7%;
+    font-family: monospace;
+    background: rgba(2, 212, 2, 0.288);
+}
